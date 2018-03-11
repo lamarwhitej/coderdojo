@@ -1,0 +1,116 @@
+body {
+    background-color:rgb(191, 221, 195);
+    width: 100%
+  
+    color: black;
+  }
+
+  .center-div
+  {
+       margin: 0 auto;
+       width: 100px; 
+  }
+
+  .parallax {
+    /* The image used */
+    
+    background-image: url("../../images/CoderDojo.gif");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  /*
+  nav ul {
+    background-color: white;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 20px
+  }
+
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: lime;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {opacity:0}
+    50% {opacity:1}
+    100%{opacity:0}
+    
+  }
+   @keyframes glowPulse {
+           0% {
+               color: Green;
+           }
+           50% {
+               color: Black;
+           }
+           100% {
+               color: Green;
+           }
+       }
+
+   #myCoolText {
+           animation-name: glowPulse;
+           animation-duration: 3.5s;
+           animation-iteration-count: infinite;
+           
+   }
+       @keyframes slide {
+       0% {
+           background-position-x: 0;
+       }
+       100% {
+           background-position-x: 600vw;
+       }
+       }
+            #frontPage {
+           background: repeating-linear-gradient(-45deg, green 0%, green 7.14%, lime 14.28%, green 21.42%, black 28.56%, lime 35.7%, black 42.84%, green 50%);
+           background-size: 600vw 600vw;
+           animation: slide 20s infinite linear forwards;
+       }
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    */
+  
+  
+  /**********************************
+  This section is for styling tables
+  ***********************************/
+  table, th, td {
+    border: 1px solid HoneyDew;
+    border-collapse: collapse;
+  }
+  tr {
+    background-color: Black;
+  }
+  th, td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    color: white;
+  }
+  td {
+    color: white;
+  } 
